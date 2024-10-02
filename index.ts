@@ -4,7 +4,7 @@ import bodyParser, { BodyParser } from "body-parser";
 import cors from "cors";
 
 // config
-const server = new Server();
+const server = Server.instance;
 
 // BodyParser
 server.app.use(bodyParser.urlencoded({ extended: true }));
