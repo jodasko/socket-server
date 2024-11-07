@@ -1,6 +1,6 @@
 import express from "express";
 import { SERVER_PORT } from "../global/environment";
-// import socketIO from "socket.io"; -> lower versions
+// import socketIO from "socket.io"; -> previous versions
 import { Server as SocketIOServer } from "socket.io"; // from ^3.00
 import http from "http";
 
