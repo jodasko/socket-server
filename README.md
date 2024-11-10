@@ -1,12 +1,20 @@
-# Socket-Server
-
-Reconstruir modulos de Node
+# Front Angular Messenger
 
 ```
 npm install
 ```
 
-Generr el DIST
+```
+ng serve
+```
+
+# Socket-Server
+
+```
+npm install
+```
+
+Generar el dist
 
 ```
 tsc -w
